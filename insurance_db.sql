@@ -136,7 +136,7 @@ for each row
 begin
 if 3<=(select count(*) from participated where participated.driver_id = new.driver_id)
 then
-signal sqlstate '45000' set message_text = 'u cannot man';
+signal sqlstate '45000' set message_text = 'u cannot hold a driver license permit';
 end if;
 end;//
 
