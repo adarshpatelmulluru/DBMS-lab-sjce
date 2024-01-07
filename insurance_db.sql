@@ -111,6 +111,7 @@ DELETE FROM car
 WHERE model = 'Mazda' AND regno IN (SELECT regno FROM owns WHERE driver_id IN (SELECT driver_id FROM PERSON WHERE name = 'Smith'));
 
 -- 5.	Update the damage amount for the car with license number “KA09MA1234” in the accident with report. 
+-- insted of "KA09MA1234" regno KA-03-3456 has been updated due unavailable data
 
 update participated set damage_amt = 900000 where report_no = 1236 and regno = "KA-03-3456";
 
