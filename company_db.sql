@@ -120,8 +120,8 @@ from employee e join department d on e.d_no = d.d_no
 where d.dname = 'Accounts'
 group by e.name;
 
--- query that select employee details who work on all projects under the d_no 2
--- 4.	Retrieve the name of each employee who works on all the projects controlled by department number 2 (use NOT EXISTS operator).
+-- query that select employee details who work on all projects under the d_no 5
+-- 4.	Retrieve the name of each employee who works on all the projects controlled by department number 5 (use NOT EXISTS operator).
 
 select e.name,e.ssn,e.d_no
 from employee e
