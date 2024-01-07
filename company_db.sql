@@ -144,6 +144,8 @@ where e.salary >=600000
 group by d.d_no
 having count(d.d_no)>=2;
 
+-- or 
+
 SELECT d_no, COUNT(*) AS EmployeeCount
 FROM employee
 WHERE d_no in(
