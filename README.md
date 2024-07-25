@@ -1,5 +1,5 @@
 # DBMS-lab-sjce
-1. Consider the database schemas given below. 
+Program 1. Consider the database schemas given below. 
 Write ER diagram and schema diagram. The primary keys are underlined and the data types <br>
 are specified. <br>
 Create tables for the following schema listed below by properly specifying the primary keys <br>
